@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1704208220B00E53009C2554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704208120B00E53009C2554 /* ViewController.swift */; };
+		170D91A01F8DDF51002443FB /* TextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170D919F1F8DDF51002443FB /* TextTableViewController.swift */; };
+		170D91A61F8E0671002443FB /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170D91A51F8E0671002443FB /* PreviewViewController.swift */; };
+		170D91A81F8E5853002443FB /* SettingLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170D91A71F8E5853002443FB /* SettingLauncher.swift */; };
 		170F2A3F1F8C58ED00793041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170F2A3E1F8C58ED00793041 /* AppDelegate.swift */; };
-		170F2A411F8C58ED00793041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170F2A401F8C58ED00793041 /* ViewController.swift */; };
 		170F2A441F8C58ED00793041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170F2A421F8C58ED00793041 /* Main.storyboard */; };
 		170F2A471F8C58ED00793041 /* Prompter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 170F2A451F8C58ED00793041 /* Prompter.xcdatamodeld */; };
 		170F2A491F8C58ED00793041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 170F2A481F8C58ED00793041 /* Assets.xcassets */; };
 		170F2A4C1F8C58ED00793041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 170F2A4A1F8C58ED00793041 /* LaunchScreen.storyboard */; };
 		170F2A571F8C58ED00793041 /* PrompterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170F2A561F8C58ED00793041 /* PrompterTests.swift */; };
 		170F2A621F8C58ED00793041 /* PrompterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170F2A611F8C58ED00793041 /* PrompterUITests.swift */; };
+		170F2A701F8D02C000793041 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170F2A6F1F8D02C000793041 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1704208120B00E53009C2554 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		170D919F1F8DDF51002443FB /* TextTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTableViewController.swift; sourceTree = "<group>"; };
+		170D91A51F8E0671002443FB /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		170D91A71F8E5853002443FB /* SettingLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLauncher.swift; sourceTree = "<group>"; };
 		170F2A3B1F8C58ED00793041 /* Prompter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prompter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		170F2A3E1F8C58ED00793041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		170F2A401F8C58ED00793041 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		170F2A431F8C58ED00793041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		170F2A461F8C58ED00793041 /* Prompter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Prompter.xcdatamodel; sourceTree = "<group>"; };
 		170F2A481F8C58ED00793041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		170F2A5D1F8C58ED00793041 /* PrompterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrompterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		170F2A611F8C58ED00793041 /* PrompterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrompterUITests.swift; sourceTree = "<group>"; };
 		170F2A631F8C58ED00793041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		170F2A6F1F8D02C000793041 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +107,17 @@
 		170F2A3D1F8C58ED00793041 /* Prompter */ = {
 			isa = PBXGroup;
 			children = (
+				170D91A51F8E0671002443FB /* PreviewViewController.swift */,
+				1704208120B00E53009C2554 /* ViewController.swift */,
 				170F2A3E1F8C58ED00793041 /* AppDelegate.swift */,
-				170F2A401F8C58ED00793041 /* ViewController.swift */,
 				170F2A421F8C58ED00793041 /* Main.storyboard */,
+				170D919F1F8DDF51002443FB /* TextTableViewController.swift */,
+				170F2A6F1F8D02C000793041 /* MainViewController.swift */,
 				170F2A481F8C58ED00793041 /* Assets.xcassets */,
 				170F2A4A1F8C58ED00793041 /* LaunchScreen.storyboard */,
 				170F2A4D1F8C58ED00793041 /* Info.plist */,
 				170F2A451F8C58ED00793041 /* Prompter.xcdatamodeld */,
+				170D91A71F8E5853002443FB /* SettingLauncher.swift */,
 			);
 			path = Prompter;
 			sourceTree = "<group>";
@@ -262,9 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170D91A81F8E5853002443FB /* SettingLauncher.swift in Sources */,
+				170D91A01F8DDF51002443FB /* TextTableViewController.swift in Sources */,
 				170F2A471F8C58ED00793041 /* Prompter.xcdatamodeld in Sources */,
-				170F2A411F8C58ED00793041 /* ViewController.swift in Sources */,
+				170D91A61F8E0671002443FB /* PreviewViewController.swift in Sources */,
+				1704208220B00E53009C2554 /* ViewController.swift in Sources */,
 				170F2A3F1F8C58ED00793041 /* AppDelegate.swift in Sources */,
+				170F2A701F8D02C000793041 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MSU.Prompter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -450,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = MSU.Prompter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
